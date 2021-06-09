@@ -18,11 +18,11 @@ def test_fib_eight():
     assert actual == expected
 
 def test_lucas_four():
-    actual = fibonacci(4)
+    actual = lucas(4)
     expected = 4
     assert actual == expected
 
 def test_lucas_eight():
-    actual = fibonacci(8)
+    actual = lucas(8)
     expected = 29
     assert actual == expected
