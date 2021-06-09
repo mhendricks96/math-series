@@ -55,5 +55,5 @@ def test_sum_series_evens_four():
 
 def test_sum_series_evens_eight():
     actual = sum_series(8, 2, 4)
-    expected == 68
+    expected = 68
     assert actual == expected
